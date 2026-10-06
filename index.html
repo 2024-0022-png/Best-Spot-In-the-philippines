@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Siargao</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #05977a;
+            color: #333;
+        }
+
+        header {
+            background-image: url("images/siargao.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #064e4a;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #0b6e69;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #eef7f5;
+            border-radius: 10px;
+            overflow: hidden;
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 18px;
+        }
+
+        .card h3 {
+            color: #064e4a;
+            margin-top: 0;
+        }
+
+        
+        .video-container {
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 850px;
+            height: 480px;
+            border-radius: 10px;
+        }
+
+       
+        .audio-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .audio-container audio {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        footer {
+            background-color: #064e4a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>Explore Siargao</h1>
+        <p>Your Guide to the Beautiful Island of Siargao</p>
+    </header>
+
+
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#video">Video</a>
+        <a href="#audio">Beach Audio</a>
+        <a href="#spots">Tourist Spots</a>
+        <a href="#bookings">Bookings</a>
+        <a href="#activities">Activities</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+
+    <main>
+
+        
+        <section id="home">
+
+            <h2>Welcome to Siargao</h2>
+
+            <p>
+                Siargao is a beautiful island in Surigao del Norte,
+                Philippines. It is famous for its beaches, clear waters,
+                surfing spots, lagoons, and peaceful island atmosphere.
+            </p>
+
+            <p>
+                Explore this page to learn more about Siargao's tourist
+                attractions, activities, bookings, and travel information.
+            </p>
+
+            <h3>News & Announcements</h3>
+
+            <p>
+                Stay updated with local events, tourism activities,
+                and important announcements before visiting Siargao.
+            </p>
+
+        </section>
+
+
+        
+        <section id="about">
+
+            <h2>About Siargao</h2>
+
+            <p>
+                Siargao is an island located in the province of
+                Surigao del Norte. It has become one of the most
+                popular tourist destinations in the Philippines.
+            </p>
+
+            <p>
+                The island is especially known for surfing, beautiful
+                beaches, island hopping, lagoons, and its natural
+                tropical scenery.
+            </p>
+
+            <h3>Why Visit Siargao?</h3>
+
+            <p>
+                Siargao offers a combination of adventure and relaxation.
+                Visitors can explore islands, enjoy the beach, experience
+                local culture, and appreciate the natural beauty of the area.
+            </p>
+
+        </section>
+
+
+        
+        <section id="video">
+
+            <h2>Discover Siargao</h2>
+
+            <p>
+                Watch this video to see the beautiful scenery,
+                beaches, and attractions of Siargao.
+            </p>
+
+            <div class="video-container">
+
+                <iframe
+                    src="https://www.youtube.com/embed/l6K6FgR2xB8"
+                    title="Siargao Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="audio">
+
+            <h2>Relaxing Beach Sounds</h2>
+
+            <p>
+                Listen to relaxing beach sounds while exploring
+                our Siargao webpage.
+            </p>
+
+            <div class="audio-container">
+
+                <audio controls loop>
+                    <source src="audio/beach.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+            </div>
+
+        </section>
+
+
+        
+        <section id="spots">
+
+            <h2>Beautiful Spots in Siargao</h2>
+
+            <div class="cards">
+
+                <!-- CLOUD 9 -->
+                <div class="card">
+
+                    <img src="https://i.imgur.com/a9LihIX.jpeg"
+                         alt="Cloud 9 boardwalk and ocean in Siargao">
+
+                    <div class="card-content">
+
+                        <h3>Cloud 9</h3>
+
+                        <p>
+                            Cloud 9 is Siargao's famous surfing destination.
+                            It is also known for its wooden boardwalk and
+                            beautiful ocean views.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                
+                <div class="card">
+
+                    <img src="https://i.imgur.com/Vt2w1iT.jpeg"
+                         alt="Small sandy island surrounded by blue water">
+
+                    <div class="card-content">
+
+                        <h3>Naked Island</h3>
+
+                        <p>
+                            Naked Island is a small sandbar surrounded by
+                            clear water. It is a popular stop during
+                            island-hopping tours.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                
+                <div class="card">
+
+                    <img src="https://i.imgur.com/yotS6FP.jpeg"
+                         alt="White beach and palm trees on Daku Island">
+
+                    <div class="card-content">
+
+                        <h3>Daku Island</h3>
+
+                        <p>
+                            Daku Island features a beautiful sandy beach,
+                            clear water, and relaxing tropical scenery.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+               
+                <div class="card">
+
+                    <img src="https://i.imgur.com/5DTjEMx.jpeg"
+                         alt="Small tropical Guyam Island surrounded by blue ocean">
+
+                    <div class="card-content">
+
+                        <h3>Guyam Island</h3>
+
+                        <p>
+                            Guyam Island is a small tropical island with
+                            palm trees, white sand, and peaceful surroundings.
+                        </p>
+
+                    </div>
+
+                </div>
